@@ -1,0 +1,39 @@
+.logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 3%;
+  position: relative;
+  z-index: 2;
+}
+
+.first-logo {
+  width: 80%;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 9%;
+  margin-top: 1%;
+  position: relative;
+  z-index: 2;
+}
+
+.nav-button {
+  width: 20%;
+  background-color: #012F08;
+}
+
+.top-blur {
+  width: 617px;
+  height: 621px;
+  border-radius: 621px;
+  background: #184F0D;
+  filter: blur(160px);
+  margin-top: -300px;
+  margin-left: -450px;
+  position: absolute;
+  z-index: 1;
+}

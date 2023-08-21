@@ -1,0 +1,35 @@
+/* You can add global styles to this file, and also import other style files */
+
+body {
+  background-color: #C4DAAC;
+  overflow-x: hidden;
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+@font-face {
+  font-family: 'Inter';
+  src: url('../src/assets/inter_font.ttf');
+}
+
+@font-face {
+  font-family: 'Anonymous Pro';
+  src: url('../src/assets/AnonymousPro-Bold.ttf');
+}
+
+@font-face {
+  font-family: 'Pacifico';
+  src: url('../src/assets/Pacifico-Regular.ttf');
+}
+
+.mat-mdc-raised-button.mat-primary {
+  --mdc-protected-button-container-color: #012F08;
+  border-radius: 15px;
+}
+
+.mdc-button {
+  font-style: italic;
+  font-family: 'Inter';
+  font-weight: 200;
+}

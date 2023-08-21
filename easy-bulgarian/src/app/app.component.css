@@ -1,0 +1,28 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: 0.3fr auto;
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.header {
+  grid-column: 1 / 13;
+  grid-row: 1 / 2;
+}
+
+.main {
+  position: relative;
+  grid-column: 1 / 13;
+  grid-row: 2 / 3;
+}
+
+.bottom-blur {
+  width: 617px;
+  height: 321px;
+  border-radius: 621px;
+  background: #184F0D;
+  filter: blur(160px);
+  margin-left: 900px;
+  position: absolute;
+}

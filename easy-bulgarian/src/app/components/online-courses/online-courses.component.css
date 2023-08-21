@@ -1,0 +1,43 @@
+.heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2%;
+}
+
+.online-courses {
+  font-size: 56px;
+  font-weight: 800;
+  font-style: italic;
+  font-family: 'Inter';
+  -webkit-text-stroke: #184F0D 3px;
+  color: white;
+  line-height: 100%;
+  text-transform: uppercase;
+  margin-left: -30px;
+  margin-top: 10px;
+}
+
+.video {
+  width: 100%;
+  height: 500px;
+}
+
+.lessons {
+  text-align: center;
+}
+
+.lesson {
+  display: flex;
+  flex-flow: column;
+}
+
+.lesson-name {
+  color: #000;
+  font-family: 'Anonymous Pro';
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  -webkit-text-stroke: #FFFFFF 1px;
+}

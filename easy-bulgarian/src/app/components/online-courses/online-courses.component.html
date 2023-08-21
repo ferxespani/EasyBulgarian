@@ -1,0 +1,28 @@
+<div class="heading">
+  <img class="hand-img" src="../../../assets/hand.png" alt="Hand">
+  <span class="online-courses">ОНЛАЙН-КУРСЫ</span>
+</div>
+
+<!-- <iframe class="video" src="https://www.youtube.com/embed/HQEhYwo6KOw?autoplay=1"></iframe> -->
+
+<div class="lessons">
+  <div class="lesson" *ngFor="let lesson of lessons; index as i">
+    <label class="lesson-name">Урок {{ i + 1 }}. {{ lesson }}</label>
+    <mat-radio-group
+      [(ngModel)]="chosenLessons[i]"
+      [color]="'warn'">
+      <mat-radio-button [value]=true>
+        С обратной связью
+      </mat-radio-button>
+      <mat-radio-button [value]=false>
+        Без обратной связи
+      </mat-radio-button>
+    </mat-radio-group>
+  </div>
+  <button mat-raised-button color="accent" (click)="resetChoise()">
+    Сбросить
+  </button>
+  <button mat-raised-button color="accent" (click)="openModal()" [disabled]="this.chosenLessons.length === 0">
+    Оплатить
+  </button>
+</div>
