@@ -18,11 +18,6 @@
   margin-top: 10px;
 }
 
-.video {
-  width: 100%;
-  height: 500px;
-}
-
 .lessons {
   text-align: center;
 }
@@ -40,4 +35,13 @@
   font-weight: 400;
   line-height: normal;
   -webkit-text-stroke: #FFFFFF 1px;
+}
+
+.video {
+  margin: 0 auto;
+  width: 100%;
+}
+
+video {
+  max-width: 100%;
 }
